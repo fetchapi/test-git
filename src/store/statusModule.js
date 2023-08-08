@@ -1,7 +1,9 @@
 const statusModule = {
     namespaced: true,
     state: {
-        isLoading: true,
+        isLoading: false,
+        abc: 'true',
+        xyz: [],
         error: false,
         message: ''
     },
