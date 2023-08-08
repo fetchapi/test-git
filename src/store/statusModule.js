@@ -1,9 +1,11 @@
 const statusModule = {
     namespaced: true,
     state: {
-        isLoading: true,
-        error: true,
-        message: '',
+        isLoading: false,
+        abc: 'true',
+        xyz: [],
+        error: false,
+        message: ''
     },
     mutations: {
        setLoading(state, payload) {
