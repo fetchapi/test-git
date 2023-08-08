@@ -14,6 +14,12 @@ const todoModule = {
         testTodo(state, payload) {
             console.log(state, payload)
         },
+        deleteTodo(state, payload) {
+            console.log(state, payload)
+        },
+        updateTodo(state, payload) {
+            console.log(state, payload)
+        }
     }
 }
 
