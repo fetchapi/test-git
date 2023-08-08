@@ -1,7 +1,7 @@
 const statusModule = {
     namespaced: true,
     state: {
-        isLoading: false,
+        isLoading: true,
         error: false,
         message: ''
     },
@@ -15,5 +15,4 @@ const statusModule = {
        }
     }
 }
-
 export default statusModule
