@@ -19,7 +19,7 @@ const todoModule = {
             console.log(state, payload)
         },
         updateTodo(state, payload) {
->>>>>>>>> Temporary merge branch 2
+
             console.log(state, payload)
         }
     }
