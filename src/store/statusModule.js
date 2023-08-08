@@ -17,5 +17,4 @@ const statusModule = {
        }
     }
 }
-
 export default statusModule
